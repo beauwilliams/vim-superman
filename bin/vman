@@ -8,4 +8,4 @@ elif ! man -w "$@" > /dev/null; then
   exit 1
 fi
 
-${EDITOR:-vim} -c "SuperMan $*"
+${EDITOR:-nvim} -c "SuperMan $*"
